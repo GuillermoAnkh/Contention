@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+
+
+<head>
+    <meta charset="utf-8">
+    <meta name="description" content="Outil facilitant la prise de mesure pour la contention veineuse.">
+    <title>Contention</title>
+    <link type="css" rel="stylesheet" href="contention.css">
+</head>
+
+
+
+<body>
+
+     <form method="post" action="recherche.php">
+    <?php include('recherche_chaussette.php') ?>
+        
+        Laboratoire : 
+        <select name="laboratoire">
+           <option selected="yes">Choisir une option</option>
+           <option>Radiante</option>
+           <option>Sigvaris</option>
+        </select>
+<br>
+          Marque : 
+        <select name="marque">
+           <option selected="yes">Choisir une option</option>
+           <option>Radiante</option>
+           <option>Sigvaris</option>
+        </select>
+<br>
+          Classe : 
+        <select name="classe">
+           <option selected="yes">Choisir une option</option>
+           <option>Radiante</option>
+           <option>Sigvaris</option>
+        </select>
+<br>
+          Type : 
+        <select name="type">
+           <option selected="yes">Choisir une option</option>
+           <option>Radiante</option>
+           <option>Sigvaris</option>
+        </select>
+<br>
+          Genre : 
+        <select name="genre">
+           <option selected="yes">Choisir une option</option>
+           <option>Radiante</option>
+           <option>Sigvaris</option>
+        </select>
+<br>
+          Gamme : 
+        <select name="gamme">
+           <option selected="yes">Choisir une option</option>
+           <option>Radiante</option>
+           <option>Sigvaris</option>
+        </select>
+<br>
+          Couleur : 
+        <select name="couleur">
+           <option selected="yes">Choisir une option</option>
+           <option>Radiante</option>
+           <option>Sigvaris</option>
+        </select>
+<br>
+    	Pied ouvert ?
+        <input type="checkbox" name="pied_ouvert" value="po"/>
+<br>
+        Tour de cheville :
+        <input type="number" step="any" name="cheville"/>
+<br>
+        Tour de mollet :
+        <input type="number" step="any" name="mollet"/>
+<br>
+        Tour de cuisse :
+        <input type="number" step="any" name="cuisse"/>
+<br>
+         Tour de hanche :
+        <input type="number" step="any" name="hanche"/>
+<br>
+         Hauteur :
+        <input type="number" step="any" name="hauteur"/>
+<br>
+        <input type="submit" value="Rechercher"/>
+    </form>    
+
+
+
+
+
+</body>
+</html>
