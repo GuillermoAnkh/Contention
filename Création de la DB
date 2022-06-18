@@ -1,0 +1,5 @@
+Ceci est la requête SQL servant à créer la structure (version simplifiée) de la base de données à utiliser.
+
+
+
+CREATE TABLE `qsgn0203_contention`.`Contention` ( `EAN` VARCHAR(13) NOT NULL , `Laboratoire` VARCHAR(100) NOT NULL , `Marque` VARCHAR(100) NOT NULL , `Classe` VARCHAR(100) NOT NULL , `Type` VARCHAR(100) NOT NULL , `Genre` VARCHAR(100) NOT NULL , `Gamme` VARCHAR(100) NOT NULL , `Couleur` VARCHAR(100) NOT NULL , `Pied_ouvert` BOOLEAN NOT NULL , `Cheville_min` DECIMAL(4,2) NOT NULL , `Cheville_max` DECIMAL(4,2) NOT NULL , `Mollet_min` DECIMAL(4,2) NOT NULL , `Mollet_max` DECIMAL(4,2) NOT NULL , `Cuisse_min` DECIMAL(4,2) NOT NULL , `Cuisse_max` DECIMAL(4,2) NOT NULL , `Hanche_min` DECIMAL(4,2) NOT NULL , `Hanche_max` DECIMAL(4,2) NOT NULL , `Hauteur_min` DECIMAL(4,2) NOT NULL , `Hauteur_max` DECIMAL(4,2) NOT NULL , PRIMARY KEY (`EAN`)) ENGINE = InnoDB;
